@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+body {
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 50em;
+  height: 1200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.social {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+  padding: 10px;
+  font-size: 25px;
+}
+section p, h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+}
